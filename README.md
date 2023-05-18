@@ -24,6 +24,14 @@ Se você estiver começando agora, recomendamos que os arquivos deste projeto es
 
 ![Tela 04](http://chickensteen.com.br/assets/images/telas/tela-04.png)
 
+## Configurações Inicias (Raiz do Projeto)
+
+Com a raíz do projeto aberta no ```CMD``` (```Prompt de Comando``` ou ```Terminal```), execute o comando:
+
+```
+composer dump-autoload
+```
+
 ## Configurações Iniciais (Banco de Dados)
 
 Antes de rodar o projeto, você vai precisar configurar a conexão com o seu banco de dados local, para isso certifique-se de que as configurações relacionadas ao banco de dados existentes no arquivo ```.env``` estão corretas:
@@ -41,7 +49,7 @@ DB_PASSWORD=
 
 ## Configurações Iniciais (Migrations)
 
-Para executar a Migrations, certifique-se de que o Laravel está instalado na sua máquina local, em seguida com o ```CMD``` (```Prompt de Comando``` ou ```Terminal```) aberto da pasta do projeto atual (```api.chickensteen.com.br```), execute:
+Para executar a Migrations, certifique-se de que o Laravel está instalado na sua máquina local, em seguida com o ```CMD``` (```Prompt de Comando``` ou ```Terminal```) aberto na raízo projeto atual (```api.chickensteen.com.br```), execute:
 
 ```
 php artisan migrate
