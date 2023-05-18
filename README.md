@@ -31,6 +31,7 @@ Com a raíz do projeto aberta no ```CMD``` (```Prompt de Comando``` ou ```Termin
 ```
 composer dump-autoload
 composer update
+php artisan key:generate
 ```
 
 Em seguida renomeie o arquivo ```.env.example``` para ```.env```.
