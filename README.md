@@ -29,12 +29,15 @@ Se você estiver começando agora, recomendamos que os arquivos deste projeto es
 Com a raíz do projeto aberta no ```CMD``` (```Prompt de Comando``` ou ```Terminal```), execute o comando:
 
 ```
-composer dump-autoload
 composer update
-php artisan key:generate
+composer dump-autoload
 ```
 
-Em seguida renomeie o arquivo ```.env.example``` para ```.env```.
+Em seguida renomeie o arquivo ```.env.example``` para ```.env```, e por fim gere uma KEY para este projeto:
+
+```
+php artisan key:generate
+```
 
 ## Configurações Iniciais (Banco de Dados)
 
