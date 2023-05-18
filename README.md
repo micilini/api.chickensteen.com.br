@@ -30,7 +30,10 @@ Com a raíz do projeto aberta no ```CMD``` (```Prompt de Comando``` ou ```Termin
 
 ```
 composer dump-autoload
+composer update
 ```
+
+Em seguida renomeie o arquivo ```.env.example``` para ```.env```.
 
 ## Configurações Iniciais (Banco de Dados)
 
